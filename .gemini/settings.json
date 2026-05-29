@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "overclock": {
+      "url": "http://127.0.0.1:56806/mcp/gemini?model=gemini-3.1-pro-preview&providerId=gemini-cli&workspacePath=C%3A%5CUsers%5CCLIENTE%5CDesktop%5CLANDING-PAGE-BERRYUP&missionId=Gnq4CuvogESD&callerPaneId=9ZTWlhAz",
+      "type": "http",
+      "trust": true
+    }
+  },
+  "contextFileName": [
+    "GEMINI.md",
+    ".gemini\\overclock-context.md"
+  ],
+  "ui": {
+    "hideContextSummary": true
+  },
+  "hooksConfig": {
+    "enabled": false
+  }
+}

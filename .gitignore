@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.overclock-app/
+_tmp_*.py
+_depo_layout.py
+section_out.txt
+*.log
+.DS_Store
+Thumbs.db

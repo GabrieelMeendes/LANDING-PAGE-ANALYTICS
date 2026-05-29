@@ -1,0 +1,3 @@
+# Site estático: abra index.html na raiz
+[build]
+  publish = "."
