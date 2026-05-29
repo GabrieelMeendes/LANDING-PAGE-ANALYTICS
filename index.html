@@ -985,7 +985,7 @@ body.berryup-conversion-page #site{
 .bc-card p{margin:0;color:#5b4a42;font-size:15px;font-weight:600}
 .bc-video-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,.8fr);gap:28px;align-items:center}
 .bc-video{border-radius:8px;overflow:hidden;background:#000;box-shadow:0 20px 48px rgba(35,25,20,.18)}
-.bc-video video,.bc-video iframe{display:block;width:100%;border:0;aspect-ratio:16/9}
+.bc-video video,.bc-video iframe,.bc-video img{display:block;width:100%;border:0;aspect-ratio:auto}
 .bc-checklist{display:grid;gap:12px;margin-top:18px}
 .bc-check{display:flex;gap:10px;align-items:flex-start;font-size:17px;color:#44342c;font-weight:750}
 .bc-check:before{content:"";flex:0 0 22px;width:22px;height:22px;border-radius:50%;background:#ff6316;margin-top:2px;box-shadow:inset 0 0 0 6px #fff;border:2px solid #ff6316}
@@ -1230,11 +1230,7 @@ src="https://www.facebook.com/tr?id=969268506077683&ev=PageView&noscript=1"
   </section>
   <section class="bc-section alt">
     <div class="bc-wrap bc-video-grid">
-      <div class="bc-video">
-        <video controls playsinline preload="metadata" poster="assets/clinical-berry-up.png">
-          <source src="VIDEOS/AD4.mp4" type="video/mp4">
-        </video>
-      </div>
+      <div class="bc-video"><img src="assets/chatgpt-hero.png" alt="Berry Up - Metodo Bumbum Up" style="width:100%;display:block;border-radius:8px"></div>
       <div>
         <h2 style="text-align:left;margin-left:0">O segredo nao e so ter o creme. E saber quando, quanto e como usar</h2>
         <p class="bc-lead" style="text-align:left;margin-left:0;margin-bottom:18px">Muita gente compra produto corporal, passa por alguns dias e abandona porque nao sabe montar uma rotina. O Metodo Bumbum Up organiza esse uso em um passo a passo simples.</p>
